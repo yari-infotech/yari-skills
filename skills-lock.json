@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "skills": {
+    "estimate": {
+      "source": "yari-infotech/yari-skills",
+      "commit": "a27bc46e9a5244515ad37751a9fca73281fe579c",
+      "sourceType": "github",
+      "skillPath": "skills/estimate/SKILL.md",
+      "computedHash": "fbec40ccd0d0d87dd3dd0c55006d5ee91fd6c4d5c799f0f8f6cb6101c4b8dd3d"
+    },
+    "services": {
+      "source": "yari-infotech/yari-skills",
+      "commit": "a27bc46e9a5244515ad37751a9fca73281fe579c",
+      "sourceType": "github",
+      "skillPath": "skills/services/SKILL.md",
+      "computedHash": "c00e0c67b54e71292571ceb5f2271ab8470099f1233eb2df96ec76ea06208f3e"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://agent-plugins.org/schema/v1/plugin.json",
+  "name": "yari-infotech",
+  "version": "1.0.0",
+  "description": "Official Yari Infotech Agent Plugin bundling Product + Docs MCP servers, 5 capability skills, and REST API v1 tooling.",
+  "author": {
+    "name": "Yari Infotech",
+    "url": "https://yariinfotech.com",
+    "email": "hello@yariinfotech.com"
+  },
+  "homepage": "https://yariinfotech.com/developers",
+  "repository": "https://github.com/yari-infotech/agent-skills",
+  "license": "MIT",
+  "mcpServers": {
+    "yari-infotech": {
+      "type": "streamable-http",
+      "url": "https://yariinfotech.com/mcp",
+      "serverCard": "https://yariinfotech.com/mcp/server-card"
+    },
+    "yari-infotech-docs": {
+      "type": "streamable-http",
+      "url": "https://yariinfotech.com/docs/mcp",
+      "serverCard": "https://yariinfotech.com/docs/mcp/server-card"
+    }
+  },
+  "skills": [
+    {
+      "name": "services",
+      "path": "skills/services/SKILL.md"
+    },
+    {
+      "name": "estimate",
+      "path": "skills/estimate/SKILL.md"
+    },
+    {
+      "name": "case-studies",
+      "path": "skills/case-studies/SKILL.md"
+    },
+    {
+      "name": "mcp-integration",
+      "path": "skills/mcp-integration/SKILL.md"
+    },
+    {
+      "name": "api-sandbox",
+      "path": "skills/api-sandbox/SKILL.md"
+    }
+  ],
+  "documentation": {
+    "llmsTxt": "https://yariinfotech.com/llms.txt",
+    "openapi": "https://yariinfotech.com/openapi.json",
+    "auth": "https://yariinfotech.com/auth.md",
+    "pricing": "https://yariinfotech.com/pricing.md"
+  }
+}
