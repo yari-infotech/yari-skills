@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "yari-infotech": {
+      "type": "http",
+      "url": "https://yariinfotech.com/mcp"
+    },
+    "yari-infotech-docs": {
+      "type": "http",
+      "url": "https://yariinfotech.com/docs/mcp"
+    }
+  }
+}
