@@ -1,12 +1,12 @@
 # Yari Infotech Agent Skills & Plugin
 
-[[https://skills.sh/b/yari-infotech/agent-skills]](https://skills.sh/yari-infotech/agent-skills)
+[[https://skills.sh/b/yari-infotech/yari-skills]](https://skills.sh/yari-infotech/yari-skills)
 
 Official Agent Skills, `AGENTS.md`, `.cursorrules`, and Agent Plugin (`plugin.json`) repository for [Yari Infotech](https://yariinfotech.com).
 
 ## Install via Skills CLI
 ```bash
-npx skills add yari-infotech/agent-skills
+npx skills add yari-infotech/yari-skills
 ```
 
 ## Included Skills (5 Capability Areas)
